@@ -1,7 +1,7 @@
 #!/bin/bash
 #SBATCH --job-name=rich_test_job            # Job name
 #SBATCH --output=rich_test_output_%j.txt    # Standard output and error log
-#SBATCH --partition=your_partition_name     # Replace with the appropriate partition name
+#SBATCH --partition=short     # Replace with the appropriate partition name
 #SBATCH --nodes=1                           # Number of nodes
 #SBATCH --ntasks=1                          # Number of tasks
 #SBATCH --time=00:05:00                     # Time limit hh:mm:ss
